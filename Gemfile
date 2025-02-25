@@ -57,3 +57,6 @@ group :test do
 end
 
 gem "vite_rails", "~> 3.0"
+
+gem "faraday"
+gem "faraday_middleware"
