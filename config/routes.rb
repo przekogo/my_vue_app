@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   # API routes
   namespace :api do
+    resources :search, only: [:index]
+    resources :cities, only: [:index]
   end
 
   # Redirect all requests to the frontend
